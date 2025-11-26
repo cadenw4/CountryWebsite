@@ -1,21 +1,32 @@
- html {
-        background-image: url;
-        background-position: center center;
-    }
+#banner div{
+    width: 100%;
+    background-image:url(Banner.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 
 .container{
-    display:flex
+    display:flex;
+    border: black 2px solid;
+    text-align: center center;
+
 }
 
-#banner{
+
+nav a{
+    flex: 1;
+    font-size: 30px;
     text-align: center;
-    color: red;
 }
 
-.container h1{
+#body div{
+    flex: 1;
+    font-size: 25px;
+}
+
+#quote{
     text-align: center;
-}
+    font-size: 50px
 
-.container div{
-    flex:1
 }
