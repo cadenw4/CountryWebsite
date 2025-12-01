@@ -1,9 +1,11 @@
-#banner div{
-    width: 100%;
-    background-image:url(Banner.png);
-    height: 100%;
-    background-repeat: no-repeat;
-    background-position: center center;
+
+.banner{
+      background-image: url('Banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 400px; 
+  width: 100%
 }
 
 .container{
@@ -25,8 +27,27 @@ nav a{
     font-size: 25px;
 }
 
-#quote{
+.quote p{
+    font-size: 50px;
     text-align: center;
-    font-size: 50px
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: azure;
+    background-image: url('boat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30%; 
+  width: 100%
+}
 
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 black;
 }
