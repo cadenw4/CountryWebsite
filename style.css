@@ -1,4 +1,8 @@
-
+html{
+  background-image: url(https://img.freepik.com/free-photo/hong-kong-aerial-night_649448-3374.jpg?semt=ais_hybrid&w=740&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .banner{
       background-image: url('Banner.png');
   background-size: cover;
@@ -12,6 +16,7 @@
     display:flex;
     border: black 2px solid;
     text-align: center center;
+    background-color: aliceblue;
 
 }
 
@@ -20,11 +25,13 @@ nav a{
     flex: 1;
     font-size: 30px;
     text-align: center;
+    background-color: aliceblue;
 }
 
 #body div{
     flex: 1;
     font-size: 25px;
+    background-color: aliceblue;
 }
 
 .quote p{
@@ -42,12 +49,21 @@ nav a{
 
 
 .card {
-  /* Add shadows to create the "card" effect */
+
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
+  background-color: aliceblue;
 }
 
-/* On mouse-over, add a deeper shadow */
 .card:hover {
   box-shadow: 0 8px 16px 0 black;
+}
+
+.layoutone div{
+  border: black 2px solid ;
+flex:1
+}
+
+.one{
+  flex:1
 }
