@@ -67,3 +67,19 @@ flex:1
 .one{
   flex:1
 }
+
+.dimsum{
+  flex: 3;
+}
+
+#img{
+  border: 10px gray solid ;
+}
+
+#text{
+  border: 10px yellow dashed;
+}
+
+#text div{
+  font-size: 100px;
+}
