@@ -2,6 +2,7 @@ html{
   background-image: url(https://img.freepik.com/free-photo/hong-kong-aerial-night_649448-3374.jpg?semt=ais_hybrid&w=740&q=80);
   background-repeat: no-repeat;
   background-size: cover;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .banner{
       background-image: url('Banner.png');
@@ -26,6 +27,7 @@ nav a{
     font-size: 30px;
     text-align: center;
     background-color: aliceblue;
+    text-decoration: none;
 }
 
 #body div{
